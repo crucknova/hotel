@@ -1,5 +1,6 @@
 import React from "react";
 import "./Context.css"
+import {Link} from "react-router-dom";
 
 class Card extends React.Component {
     render() {
@@ -10,6 +11,7 @@ class Card extends React.Component {
                     <h2>{this.props.title}</h2>
                     {/*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>*/}
                     <h5>{this.props.author}</h5>
+                    <Link to="/rooms" className="btn-primary">our room</Link>
                 </div>
             </div>
         )
@@ -26,7 +28,9 @@ class Float extends React.Component {
                     <Card
                         img='https://picsum.photos/id/54/400/300'
                         title='What I learned from my visit to The Upside Down'
-                        author='Nancy Wheeler' />
+                        author='Nancy Wheeler'
+                    />
+
                 </div>
 
                 <div className='cards'>
