@@ -13,7 +13,7 @@ class Card extends React.Component {
                 <img src={this.props.img} />
                 <div className="card-body">
                     <h2>{this.props.title}</h2>
-                    {/*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>*/}
+                    <p>{this.props.para}</p>
                     <h5>{this.props.author}</h5>
                 </div>
             </div>
@@ -30,33 +30,34 @@ class Float extends React.Component {
 
                 <div className='cards'>
 
-
                     <Card
                         img={img8}
-                        title='What I learned from my visit to The Upside Down'
-                        author='Nancy Wheeler'
-
+                        title='Double Delux'
+                        para='You can experience a new level of resort experience with out special made beach view for our valued customers'
+                        author='Cruck Nova'
                     />
-
-
 
                 </div>
             </Link>
 
+                <Link to="/rooms" style={{textDecoration:"none"}}>
+
                 <div className='cards'>
                     <Card
                         img={img9}
-                        title='What I learned from my visit to The Upside Down'
-                        author='dNancy Wheeler' />
+                        title='Family Delux'
+                        para='You and your family can enjoy the Beautiful View from the beach side of the resort to get the maximim  buck for bang.'
+                        author='Cruck Nova' />
                 </div>
+                </Link>
+                <Link to="/rooms" style={{textDecoration:"none"}}>
                 <div className='cards'>
                     <Card
                         img={img10}
-                        title='What I learned from my visit to The Upside Down'
-                        author='Nancy Wheeler' />
+                        title='Presidential Suite'
+                        author='Cruck Nova' />
                 </div>
-
-
+                </Link>
             </div>
 
         )

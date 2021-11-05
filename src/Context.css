@@ -62,6 +62,7 @@ h1, h2, h3, h5 {
 .card h2 {
     color: #222;
     margin-top: -0.2em;
+    text-align-all: center;
     line-height: 1.4;
     font-size: 1.3em;
     font-weight: 500;
@@ -84,6 +85,7 @@ h1, h2, h3, h5 {
 
 .card-body {
     padding: 1.2em;
+    text-align: center;
 }
 
 .abcd{
