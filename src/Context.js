@@ -1,6 +1,10 @@
 import React from "react";
 import "./Context.css"
 import {Link} from "react-router-dom";
+import img8 from "./images/room-8.jpeg";
+import img9 from "./images/room-12.jpeg";
+import img10 from "./images/details-1.jpeg";
+
 
 class Card extends React.Component {
     render() {
@@ -11,7 +15,6 @@ class Card extends React.Component {
                     <h2>{this.props.title}</h2>
                     {/*<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>*/}
                     <h5>{this.props.author}</h5>
-                    <Link to="/rooms" className="btn-primary">our room</Link>
                 </div>
             </div>
         )
@@ -21,32 +24,41 @@ class Card extends React.Component {
 class Float extends React.Component {
     render() {
         return (
-            <div className= 'abcd'>
 
+            <div className= 'abcd'>
+                <Link to="/rooms" style={{textDecoration:"none"}}>
 
                 <div className='cards'>
+
+
                     <Card
-                        img='https://picsum.photos/id/54/400/300'
+                        img={img8}
                         title='What I learned from my visit to The Upside Down'
                         author='Nancy Wheeler'
+
                     />
 
+
+
                 </div>
+            </Link>
 
                 <div className='cards'>
                     <Card
-                        img='https://picsum.photos/id/54/400/300'
+                        img={img9}
                         title='What I learned from my visit to The Upside Down'
-                        author='Nancy Wheeler' />
+                        author='dNancy Wheeler' />
                 </div>
                 <div className='cards'>
                     <Card
-                        img='https://picsum.photos/id/54/400/300'
+                        img={img10}
                         title='What I learned from my visit to The Upside Down'
                         author='Nancy Wheeler' />
                 </div>
+
 
             </div>
+
         )
     }
 }
