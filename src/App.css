@@ -157,7 +157,7 @@ h6 {
 /* end of navbar */
 /* Hero */
 .defaultHero,
-.roomsHeros {
+.roomsHero {
   min-height: calc(100vh - 66px);
   background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
   display: flex;
@@ -165,12 +165,8 @@ h6 {
   justify-content: center;
 }
 .roomsHero {
-  min-height: 720px;
-  width: 1280px;
   background-image: url("./images/room-2.jpeg");
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-height: 60vh;
 }
 /* End of Hero */
 /* Banner */
@@ -234,21 +230,21 @@ h6 {
 
 /* services */
 .services {
-  padding: 10rem;
+  padding: 5rem 0;
 }
 .services {
   background: var(--darkGrey);
   text-align: center;
 }
 .services-center {
-  width: 60vw;
+  width: 90vw;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
 }
-.service div {
+.service span {
   display: inline-block;
   color: var(--primaryColor);
   font-size: 2.5rem;
@@ -515,11 +511,3 @@ h6 {
   }
 }
 /* end of rooms fitler*/
-
-.howercard{
-
-  background-color: #222222;
-  width: 500px;
-  height: 300px;
-  cursor: pointer;
-}

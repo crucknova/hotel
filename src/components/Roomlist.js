@@ -27,7 +27,7 @@ class Totalfloat extends React.Component {
 
             <div className= 'abcde'>
                 <Link to="/rooms/double-deluxe" style={{textDecoration:"none"}}>
-                    <div className='cards'>
+                    <div className='cards1'>
                         <Card1
                             img={img8}
                             title='Double Deluxe'
@@ -39,7 +39,7 @@ class Totalfloat extends React.Component {
                 </Link>
 
                 <Link to="/rooms/family-deluxe" style={{textDecoration:"none"}}>
-                    <div className='cards'>
+                    <div className='cards1'>
                         <Card1
                             img={img9}
                             title='Family Deluxe'
@@ -48,7 +48,7 @@ class Totalfloat extends React.Component {
                     </div>
                 </Link>
                 <Link to="/rooms/presidential" style={{textDecoration:"none"}}>
-                    <div className='cards'>
+                    <div className='cards1'>
                         <Card1
                             img={img10}
                             title='Presidential Suite'
@@ -56,30 +56,12 @@ class Totalfloat extends React.Component {
                             author='Cruck Nova' />
                     </div>
                 </Link>
-                <Link to="/rooms/family-deluxe" style={{textDecoration:"none"}}>
-                    <div className='cards'>
+                <Link to="/rooms/single-deluxe" style={{textDecoration:"none"}}>
+                    <div className='cards1'>
                         <Card1
                             img={img9}
-                            title='Family Deluxe'
-                            para='You and your family can enjoy the Beautiful View from the beach side of the resort to get the maximum  buck for bang.'
-                            author='Cruck Nova' />
-                    </div>
-                </Link>
-                <Link to="/rooms/family-deluxe" style={{textDecoration:"none"}}>
-                    <div className='cards'>
-                        <Card1
-                            img={img9}
-                            title='Family Deluxe'
-                            para='You and your family can enjoy the Beautiful View from the beach side of the resort to get the maximum  buck for bang.'
-                            author='Cruck Nova' />
-                    </div>
-                </Link>
-                <Link to="/rooms/family-deluxe" style={{textDecoration:"none"}}>
-                    <div className='cards'>
-                        <Card1
-                            img={img9}
-                            title='Family Deluxe'
-                            para='You and your family can enjoy the Beautiful View from the beach side of the resort to get the maximum  buck for bang.'
+                            title='Single Deluxe'
+                            para='You can enjoy the Beautiful View from the beach side of the resort to get the maximum  buck for bang.'
                             author='Cruck Nova' />
                     </div>
                 </Link>
