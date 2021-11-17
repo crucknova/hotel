@@ -1,5 +1,5 @@
 import React from "react";
-import "./Context.css"
+import "./HowerCards.css"
 import {Link} from "react-router-dom";
 import img8 from "./images/room-8.jpeg";
 import img9 from "./images/room-12.jpeg";
@@ -17,6 +17,7 @@ class Card extends React.Component {
                     <h5>{this.props.author}</h5>
                 </div>
             </div>
+
         )
     }
 }
@@ -26,13 +27,13 @@ class Float extends React.Component {
         return (
 
             <div className= 'abcd'>
-                <Link to="/rooms" style={{textDecoration:"none"}}>
+                <Link to="/rooms/double-deluxe" style={{textDecoration:"none"}}>
 
                 <div className='cards'>
 
                     <Card
                         img={img8}
-                        title='Double Delux'
+                        title='Double Deluxe'
                         para='You can experience a new level of resort experience with out special made beach view for our valued customers'
                         author='Cruck Nova'
                     />
@@ -40,21 +41,23 @@ class Float extends React.Component {
                 </div>
             </Link>
 
-                <Link to="/rooms" style={{textDecoration:"none"}}>
-
+                <Link to="/rooms/family-deluxe" style={{textDecoration:"none"}}>
                 <div className='cards'>
                     <Card
                         img={img9}
-                        title='Family Delux'
-                        para='You and your family can enjoy the Beautiful View from the beach side of the resort to get the maximim  buck for bang.'
+                        title='Family Deluxe'
+                        para='You and your family can enjoy the Beautiful View from the beach side of the resort to get the maximum  buck for bang.'
                         author='Cruck Nova' />
                 </div>
                 </Link>
-                <Link to="/rooms" style={{textDecoration:"none"}}>
+
+
+                <Link to="/rooms/presidential" style={{textDecoration:"none"}}>
                 <div className='cards'>
                     <Card
                         img={img10}
                         title='Presidential Suite'
+                        para='With the Presidential Suite , you can get the most out of the resort, where you have 100% access to any thing on this hotel. But it comes with a price'
                         author='Cruck Nova' />
                 </div>
                 </Link>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Services from "../components/Services";
-import Context from "../Context";
+import Context from "../HowerCards";
 
 
 const home = () => {
@@ -20,7 +20,7 @@ const home = () => {
                 </Banner>
             </Hero>
             <Services />
-            <Context/>
+            <Context />
         </>
     );
 };
