@@ -52,7 +52,7 @@ class Totalfloat extends React.Component {
                         <Card1
                             img={img10}
                             title='Presidential Suite'
-                            para='With the Presidential Suite , you can get the most out of the resort, where you have 100% access to any thing on this hotel. But it comes with a price'
+                            para='You can get the most out of the resort, where you have 100% access to any thing on this hotel. But it comes with a price'
                             author='Cruck Nova' />
                     </div>
                 </Link>

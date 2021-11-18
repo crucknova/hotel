@@ -511,3 +511,23 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+
+
+.nav-login{
+  display: flex;
+  align-content: end;
+}
+.nav-login a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 0;
+  color: var(--mainBlack);
+  transition: var(--mainTransition);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: var(--mainSpacing);
+}
+.nav-login a:hover {
+  color: var(--primaryColor);
+}
